@@ -5,10 +5,10 @@ Wil Birkmaier
 <http://p2.awkupi.me>
 
 ### Description:
-This project is intended to teach me the basics of PHP.  In order to gain a better understanding of PHP, I will implement a password generator using the xkcd style and methodology. More information can be found here <https://xkcd.com/936/>
+This project is intended to teach me the basics of PHP.  In order to gain a better understanding of PHP, I will implement a password generator using the xkcd style and methodology. More information about the XKCD Password Method can be found here: <https://xkcd.com/936/>
 
 ### Demo Information:
-I plan to do a demo in my Section after Thursday's lecture in front of my group and TA Dan.
+I plan to do an in person demo in my Section after Thursday's lecture in front of my group and TA Dan.
 
 ### Additional Information:
 + Coded to HTML5 standards and uses the <http://validator.w3.org/> service to check it.
