@@ -1,14 +1,14 @@
-# Project P1
+# Project P2
 Wil Birkmaier
 
 ### Live URL for project:
-<http://p1.awkupi.me>
+<http://p2.awkupi.me>
 
 ### Description:
-This project is intended to give a little info about myself.  It is also to act an index or reference page for all my other projects, providing links to the final products. 
+This project is intended to teach me the basics of PHP.  In order to gain a better understanding of PHP, I will implement a password generator using the xkcd style and methodology. More information can be found here <https://xkcd.com/936/>
 
 ### Demo Information:
-N/A - This first project does not require a demo.
+I plan to do a demo in my Section after Thursday's lecture in front of my group and TA Dan.
 
 ### Additional Information:
 + Coded to HTML5 standards and uses the <http://validator.w3.org/> service to check it.
