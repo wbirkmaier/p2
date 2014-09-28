@@ -13,7 +13,6 @@ I plan to do an in person demo in my Section after Thursday's lecture in front o
 ### Additional Information:
 + Coded to HTML5 standards and uses the <http://validator.w3.org/> service to check it.
 + No Login is required.
-+ I asked if I could use a non-personal image for privacy reasons on my page via piazza, an instructor said it was OK on the following thread <https://piazza.com/class/hykay018bam4zp?cid=84>
 
 ### Plugins and Outside Code used Credits:
 + CSS Reset -  <http://meyerweb.com/eric/tools/css/reset/> v2.0, 20110126 License: none (public domain) 
