@@ -114,3 +114,7 @@ p {
 	font-family: georgia, sans-serif;
 	text-align: justify;
 }
+#passwordOut {
+	color: red;
+	font: italic normal 1.8em georgia, sans-serif;
+}

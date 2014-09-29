@@ -46,7 +46,7 @@
 
 	<fieldset>
                 <legend>Your Password is</legend>
-			<p><?=$xkcdPassword?></p>
+			<p id="passwordOut"><?=$xkcdPassword?></p>
                         <p><?=$numWords?></p>
 			<p><?=$arrayTotal?></p>
         </fieldset>
