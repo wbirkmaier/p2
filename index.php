@@ -44,10 +44,15 @@
 
 	</fieldset>
 
-<input type="submit" value="Generate Password">
+	<fieldset>
+                <legend>Your Password is</legend>
+                        <p><?=$variable?></p>
+        </fieldset>
 
-</form>
 
+	<input type="submit" value="Generate Password">
+
+	</form>
 
 </body>
 
