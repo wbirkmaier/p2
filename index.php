@@ -49,10 +49,6 @@
 	<p id="footNote"> *A number larger than 10 will be ignored and a random number will be used</p>
 
 	</form>
-<!--DEBUG Code
-<p><?=$numWords?></p>
-<p><?=$arrayTotal?></p>
--->
 
 </body>
 
