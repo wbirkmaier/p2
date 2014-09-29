@@ -13,7 +13,8 @@ I plan to do an in person demo in my Section after Thursday's lecture in front o
 ### Additional Information:
 + Coded to HTML5 standards and uses the <http://validator.w3.org/> service to check it.
 + No Login is required.
++ Did a cat common-english-words.txt | tr "," "\n" > wordlist to make it easier to parse in PHP.
 
 ### Plugins and Outside Code used Credits:
 + CSS Reset -  <http://meyerweb.com/eric/tools/css/reset/> v2.0, 20110126 License: none (public domain) 
-+ Copied /usr/share/dict/words from my Fedora Core 20 Distro to ./dictionary/words to use for password generation
++ Did a wget on <http://www.textfixer.com/resources/common-english-words.txt> from <http://www.textfixer.com/resources/common-english-words.php> to use for password generation.
