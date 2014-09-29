@@ -36,10 +36,10 @@
 		<input type="text" id="passwordLength" name="passwordLength" placeholder="Enter Number"><br>
 		<br>
 		<input type="checkbox" id="numberChar" name="numberChar" value="true">
-		<label for="numberChar"> Append Numerical Characters</label><br>
+		<label for="numberChar"> Append Numerical Character</label><br>
 
 		<input type="checkbox" id="specialChar" name="specialChar" value="true">
-                <label for="specialChar"> Append Special Characters</label><br>
+                <label for="specialChar"> Append Special Character</label><br>
 		<br>
 
 	</fieldset>
