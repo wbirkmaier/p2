@@ -120,5 +120,6 @@ p {
 }
 
 #footNote {
+	color: gray;
 	font: italic normal 0.8em georgia, sans-serif;
 }
