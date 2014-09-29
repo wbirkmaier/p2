@@ -5,7 +5,7 @@ $filename="dictionary/wordlist";
 
 
 /*Set Password Length*/
-$numWords=htmlspecialchars($_GET["passwordLength"]);
+$numWords=htmlspecialchars($_POST["passwordLength"]);
 
 if ($numWords == "") {
 	$numWords=rand(3,25);
@@ -19,15 +19,10 @@ $wordList=file($filename, FILE_IGNORE_NEW_LINES);
 /*Get total number of elements in the wordlist*/
 $arrayTotal=count($wordList) - 1;
 
-
-for ($i=0; $i<=$numWords; $i++) {
-	echo $wordList[rand(0, $arrayTotal)] . " ";
+/*Build password string*/
+for ($i=0; $i<$numWords; $i++) {
+	$xkcdPassword=$xkcdPassword . $wordList[rand(0, $arrayTotal)] . "-";
 }
 
-/* Code to test array works by outputting to screen */
-/* foreach ($wordlist as $line_num => $wordlist) {
-    echo "Line #<b>{$line_num}</b> : " . "<br />\n"; 
-} */
-
-
-
+/*Remove trailing "-" from string*/
+$xkcdPassword=trim($xkcdPassword, "-");

@@ -26,7 +26,7 @@
 	<h1>This page will generate a pasword based on the <a href='http://xkcd.com/936/'>XKCD Method</a> of password generation.</h1>
 	<br>
 
-	<form action="index.php" method="get"> <!--by using get allows anyone to see options passed to site as well as provide an api of sorts to generate a password -->
+	<form action="index.php" method="post">
 
 	<fieldset>
 
@@ -46,7 +46,9 @@
 
 	<fieldset>
                 <legend>Your Password is</legend>
-                        <p><?=$variable?></p>
+			<p><?=$xkcdPassword?></p>
+                        <p><?=$numWords?></p>
+			<p><?=$arrayTotal?></p>
         </fieldset>
 
 
