@@ -118,3 +118,7 @@ p {
 	color: red;
 	font: italic normal 1.8em georgia, sans-serif;
 }
+
+#footNote {
+	font: italic normal 0.8em georgia, sans-serif;
+}

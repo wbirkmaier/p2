@@ -3,11 +3,13 @@
 /*Variable that points to wordlist*/
 $filename="dictionary/wordlist";
 
+/*Max password length*/
+$maxPassword="10";
 
 /*Set Password Length*/
 $numWords=htmlspecialchars($_POST["passwordLength"]);
 
-if ($numWords == "") {
+if ($numWords == "" || $numWords > $maxPassword) {
 	$numWords=rand(3,10);
 }
 
