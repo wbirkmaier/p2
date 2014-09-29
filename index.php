@@ -47,14 +47,16 @@
 	<fieldset>
                 <legend>Your Password is</legend>
 			<p id="passwordOut"><?=$xkcdPassword?></p>
-                        <p><?=$numWords?></p>
-			<p><?=$arrayTotal?></p>
         </fieldset>
 
 
 	<input type="submit" value="Generate Password">
 
 	</form>
+<!--DEBUG Code
+<p><?=$numWords?></p>
+<p><?=$arrayTotal?></p>
+-->
 
 </body>
 
