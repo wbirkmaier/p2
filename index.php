@@ -23,6 +23,32 @@
 </head>
 
 <body>
+	<p>This page will generate a pasword based on the xkcd method</p>
+	<br>
+
+	<form action="index.php" method="post">
+
+	<fieldset>
+
+		<legend>XKCD Password Generator</legend>
+
+		<label for="passwordLength"><b>Enter a number between 1 and 25 for password length below</b></label><br>
+		<input type="text" id="passwordLength" name="passwordLength" placeholder="Enter Number"><br>
+
+		<input type="checkbox" id="numberChar" name="numberChar" value="true">
+		<label for="numberChar"> Use Numerical Characters</label><br>
+
+		<input type="checkbox" id="specialChar" name="specialChar" value="true">
+                <label for="specialChar"> Use Special Characters</label><br>
+
+		<br>
+
+	</fieldset>
+
+<input type="submit" value="Generate Password">
+
+</form>
+
 
 </body>
 
