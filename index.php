@@ -35,10 +35,10 @@
 		<label for="passwordLength"><b>Enter a number between 1 and 10 or click generate when blank for a random length</b></label><br>
 		<input type="text" id="passwordLength" name="passwordLength" placeholder="Enter Number"><br>
 		<br>
-		<input type="checkbox" id="numberChar" name="numberChar" value="true">
+		<input type="checkbox" id="numberChar" name="numberChar" value="true" <?php if(isset($_POST["numberChar"])) echo "checked='checked'"; ?> >
 		<label for="numberChar"> Append Numerical Character</label><br>
 
-		<input type="checkbox" id="specialChar" name="specialChar" value="true">
+		<input type="checkbox" id="specialChar" name="specialChar" value="true" <?php if(isset($_POST["specialChar"])) echo "checked='checked'"; ?> >
                 <label for="specialChar"> Append Special Character</label><br>
 		<br>
 

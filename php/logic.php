@@ -38,6 +38,6 @@ $xkcdPassword=trim($xkcdPassword, "-");
 if ($addNumber == "true") {
 	$xkcdPassword=$xkcdPassword . rand(0,9);
 }
-elseif ($addSpecial == "true") {
+if ($addSpecial == "true") {
         $xkcdPassword=$xkcdPassword . "@";
 }
