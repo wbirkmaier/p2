@@ -8,7 +8,7 @@ $filename="dictionary/wordlist";
 $numWords=htmlspecialchars($_POST["passwordLength"]);
 
 if ($numWords == "") {
-	$numWords=rand(3,25);
+	$numWords=rand(3,10);
 }
 
 $xkcdPassword="";

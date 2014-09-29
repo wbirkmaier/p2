@@ -32,7 +32,7 @@
 
 		<legend>XKCD Password Generator</legend>
 
-		<label for="passwordLength"><b>Enter a number between 1 and 25 or click generate when blank for a random length</b></label><br>
+		<label for="passwordLength"><b>Enter a number between 1 and 10 or click generate when blank for a random length</b></label><br>
 		<input type="text" id="passwordLength" name="passwordLength" placeholder="Enter Number"><br>
 		<br>
 		<input type="checkbox" id="numberChar" name="numberChar" value="true">
