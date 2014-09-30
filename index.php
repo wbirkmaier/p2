@@ -18,9 +18,9 @@
 </head>
 
 <body>
-	<h1>This page will generate a pasword based on the xkcd method of password generation.</h1>
+	<h1>This page will generate a password based on the xkcd method of password generation.</h1>
 	<br>
-	<p>XKCD is a an online web comic that once had a strip title <a href='http://xkcd.com/936/'>Password Strength</a>.  This particular strip detailed the dificulty of coming up with and memorizing a technically hard to guess password.  The comic goes on to explain how using a word, such as "workday" and transforming it into a password such as "W0rkd@y!3" by subsituting numbers and special characters still makes a hard to remember passowrd and is statiscally easy for a computer to crack by guesing combinations.  The arguement goes on to say that by taking a varity of works and forming a non-sensical sentance would be much harder to crack, and easier to remember, do to the sheer lengthing of the number of characters.</p>
+	<p>XKCD is a an online web comic that once had a strip title <a href='http://xkcd.com/936/'>Password Strength</a>. This particular strip detailed the difficulty of coming up with and memorizing a technically hard to guess password. The comic goes on to explain how using a word, such as "workday" and transforming it into a password such as "W0rkd@y!3" by substituting numbers and special characters still makes a hard to remember password and is statistically easy for a computer to crack by guessing combinations. The argument goes on to say that by taking a variety of words and forming a non-coherent sentence would be much harder to crack, and easier to remember, due to the sheer length of the number of characters.</p>
 	<p>This site will take this method of password generation and create one for you based on your input. You can pick the number of words to use, to append a number and/or append a special character to the final output.</p>
 	<br>
 
